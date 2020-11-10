@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <title> Docplanner Group </title>
+    
+    
+    <style>
+      .navigation {
+        display: grid;
+        grid-template-columns: 7fr 1fr 1fr 1fr ;
+        width: 80%;
+
+        
+      }
+      .navigation > div {
+        padding: 2em;
+        
+      }
+      
+      .second-part{
+        display : grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-column-gap: 1em ;
+        grid-auto-rows: 100px;
+
+      }
+      .box1{
+        grid-column: 1/3;
+      }
+      h4 {text-align: center;}
+      .box4{
+        background-color: chartreuse;
+        grid-auto-rows: 1000px;
+      }
+      .box5{
+        background-color: blue;
+        grid-auto-rows: 1000px;
+      }
+
+      .third-part{
+        display : grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-column-gap: 1em ;
+        grid-auto-rows: 100px;
+
+      }
+      .bag1{
+        grid-row: 1/3;
+      }
+
+    </style>
+  </head>
+    
+  <body>
+    <div class = "navigation">
+      <div> Docplanner Group</div>
+      <div> About us</div> 
+      <div> Career</div>
+      <div> Departments</div>
+      
+
+    </div>
+
+    <div class = "second-part">
+      <div class = "box1"> <h4>Making the healthcare experience more human</h4> </div>
+      <div class = "box2">We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</div>
+      <div class = "box3">We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patient</div>
+      <div class = "box4"> <h5>For patients</h5>        Find a doctor, book a visit and solve any health-related doubt</div>
+      <div class = "box5"> <h5>For doctors  </h5>      Save time managing visits and cut no-shows by half</div>
+    </div>
+    
+    
+    
+    <div class = "third-part">
+      <div class = "bag1"> <h4>We are a global company with local culture</h4> </div>
+      <div class = "bag2"> Znanylekars</div>
+      <div class = "bag3"> Doctoralia</div>
+      <div class = "bag4"> MioDottore</div>
+      <div class = "bag5"> DoktorTakvimi</div>
+      <div class = "bag6"> Znamilekar</div>
+    </div>
+  </body>
+</html>
